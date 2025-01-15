@@ -15,7 +15,7 @@ const sendEmail = async (req, res) => {
 
   try {
     await sendemail({
-
+      name,
       email: "sharidansari444@gmail.com",
       subject: "Message from porfolio",
       message,
