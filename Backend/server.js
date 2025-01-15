@@ -6,7 +6,7 @@ const port = process.env.PORT || 8000;
 
 const corsoptions = {
 
-  origin: "http://localhost:5173", 
+  origin: "https://resplendent-cannoli-955e25.netlify.app", 
   methods:["POST"],
   credentials:true
 }
