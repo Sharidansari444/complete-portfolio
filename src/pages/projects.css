@@ -1,0 +1,95 @@
+.project{
+    margin: 50px, 0px;
+    margin-left: 100px;
+
+}
+.project hr{
+     color: #138781;
+     width: 400px;
+     margin: 10px auto;
+
+
+}
+
+.project h2{
+        font-weight: bold;
+        color: #138781;
+}
+#ads{
+    margin: 30px 0px 30px 0px;
+}
+#ads .card-notify-badge{
+
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background-color: rgb(239, 239, 31);
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+
+}
+.project .card img{
+    height: 170px ;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+.card-details-badge{
+    background-color: #f09c27;
+    border-radius: 30px 30px 30px 30px;
+    padding: 5px 10px;
+    
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    color: rgb(6, 6, 6);
+}
+.ad-title h5{
+    font-size: 15px;
+}
+.ad-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #138781;
+    color: white;
+    display: block;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.ad-btn:hover{
+    background-color: white;
+    color: #138781;
+    border: #138781 2px solid; 
+    
+
+    
+}
+
+@media(max-width:800px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        /* width: 1000px; */
+    }
+   .project hr{
+    width: 280px;
+   }
+   .project .card{
+    margin-top: 30px ;
+   }
+
+}
