@@ -23,7 +23,7 @@ const sendemail = async(options)=>{
     <h5> Details Information</h5>
     <ul>
     <li><p>Name : ${options.name}</p></li>
-    <li><p>Email: ${req.body.email}</p></li>
+    <li><p>Email: ${options.userEmail}</p></li>
     <li><p>Message : ${options.message}</p></li>
    
     
