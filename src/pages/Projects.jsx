@@ -2,7 +2,7 @@ import React from 'react'
 import "./projects.css"
 import projectimg1 from "./projectimg1.png"
 import gym from "./gym.png"
-import todo from "./todo.png"
+import food from "./food.png"
 import Fade from "react-reveal/Fade"
 
 const Projects = () => {
@@ -31,7 +31,7 @@ const Projects = () => {
                                 <div className="card-body text-center">
                                     <div className="ad-title">
                                         <h5 className='text-uppercase m-auto'>
-                                        Interactive BMI Calculator with Sending Mail
+                                            Interactive BMI Calculator with Sending Mail
                                         </h5>
                                     </div>
                                     <a className='ad-btn text-uppercase' href="https://heartfelt-salamander-d58c63.netlify.app/">view</a>
@@ -69,22 +69,22 @@ const Projects = () => {
                         <div className="col-md-4">
                             <div className="card rounded">
                                 <div className="card-image">
-                                    <span className="card-notify-badge">TO DO List</span>
-                                    <img src={todo} alt="projects" />
+                                    <span className="card-notify-badge">Food-Delivery</span>
+                                    <img src={food} alt="projects" />
                                 </div>
                                 <div className="card-image-overly m-auto mt-3">
                                     {/* <span className='card-details-badge '>Node</span> */}
-                                    <span className='card-details-badge'>CSS</span>
+                                    <span className='card-details-badge'>Redux</span>
                                     <span className='card-details-badge'>React</span>
-                                    <span className='card-details-badge'>Bootstrap</span>
+                                    <span className='card-details-badge'>Tailwind</span>
                                 </div>
                                 <div className="card-body text-center">
                                     <div className="ad-title">
                                         <h5 className='text-uppercase m-auto'>
-                                           Todo List
+                                            Food items
                                         </h5>
                                     </div>
-                                    <a className='ad-btn text-uppercase' href="https://soft-boba-9340b0.netlify.app">view</a>
+                                    <a className='ad-btn text-uppercase' href="https://sparkling-sunflower-4074a0.netlify.app/">view</a>
                                 </div>
                             </div>
                         </div>
